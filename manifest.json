@@ -1,0 +1,74 @@
+{
+    "name":"Luis Gonzalez",
+    "short_name":"BCH-PWA",
+    "description":"App_CV",
+    "background_color":"#FFF",
+    "theme_color":"#FB314E",
+    "orientation":"landscape",
+    "display":"standalone", 
+    "start_url":"./index.html?utm_source=web_app_manifest",
+    "scope":"./",
+    "lang":"es-MX",
+    "icons":[
+        {
+            "src": "img/windows11/Square44x44Logo.targetsize-16.png",
+            "sizes": "16x16"
+          },
+          {
+            "src": "img/windows11/Square44x44Logo.targetsize-20.png",
+            "sizes": "20x20"
+          },
+          {
+            "src": "img/windows11/Square44x44Logo.targetsize-24.png",
+            "sizes": "24x24"
+          },
+          {
+            "src": "img/windows11/Square44x44Logo.targetsize-30.png",
+            "sizes": "30x30"
+          },
+          {
+            "src": "img/windows11/Square44x44Logo.targetsize-32.png",
+            "sizes": "32x32"
+          },
+          {
+            "src": "img/windows11/Square44x44Logo.targetsize-36.png",
+            "sizes": "36x36"
+          },
+          {
+            "src": "img/windows11/Square44x44Logo.targetsize-40.png",
+            "sizes": "40x40"
+          },
+          {
+            "src": "img/windows11/Square44x44Logo.targetsize-44.png",
+            "sizes": "44x44"
+          },
+          {
+            "src": "img/windows11/Square44x44Logo.targetsize-48.png",
+            "sizes": "48x48"
+          },
+          {
+            "src": "img/windows11/Square44x44Logo.targetsize-60.png",
+            "sizes": "60x60"
+          },
+          {
+            "src": "img/windows11/Square44x44Logo.targetsize-64.png",
+            "sizes": "64x64"
+          },
+          {
+            "src": "img/windows11/Square44x44Logo.targetsize-72.png",
+            "sizes": "72x72"
+          },
+          {
+            "src": "img/windows11/Square44x44Logo.targetsize-80.png",
+            "sizes": "80x80"
+          },
+          {
+            "src": "img/windows11/Square44x44Logo.targetsize-96.png",
+            "sizes": "96x96"
+          },
+          {
+            "src": "img/windows11/Square44x44Logo.targetsize-256.png",
+            "sizes": "256x256"
+          }
+    ]
+}
