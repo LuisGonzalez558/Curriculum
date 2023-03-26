@@ -7,7 +7,7 @@ var urlsToCache = [
     '/index.css',
     '/sw.js',
     '/main.js',
-    '/manifest.js',
+    '/manifest.json',
     '/img/windows11/Square44x44Logo.altform-unplated_targetsize-256.png',
     '/img/windows11/llamada-telefonica.png',
     '/img/windows11/linkedin.png',
