@@ -3,7 +3,8 @@ const CACHE_NAME = 'v1_cache_BCH_PWA';
 
 //configuracion de los ficheros
 var urlsToCache = [
-    'index.html',
+    '/',
+    '/index.html',
     '/index.css',
     '/sw.js',
     '/main.js',
@@ -21,7 +22,7 @@ self.addEventListener('install', event => {
     event.waitUntil(caches.open(CACHE_NAME)
     .then(cache => { 
         return cache
-        .addAll(urlsToCache)
+        .addAll([urlsToCache])
         .then(() => { 
             self.skipWaiting() 
         })
