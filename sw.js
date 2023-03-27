@@ -18,11 +18,11 @@ var urlsToCache = [
     '/img/windows11/Estudios.jpg'
 ];
 
-self.addEventListener('install', event => { 
+this.addEventListener('install', event => { 
     event.waitUntil(caches.open(CACHE_NAME)
     .then(cache => { 
         return cache
-        .addAll([urlsToCache])
+        .addAll(urlsToCache)
         .then(() => { 
             self.skipWaiting() 
         })
