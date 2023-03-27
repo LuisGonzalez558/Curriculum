@@ -3,7 +3,7 @@ const CACHE_NAME = 'v1_cache_BCH_PWA';
 
 //configuracion de los ficheros
 var urlsToCache = [
-    '/index.html',
+    'index.html',
     '/index.css',
     '/sw.js',
     '/main.js',
